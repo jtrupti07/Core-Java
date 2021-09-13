@@ -12,9 +12,7 @@ class CircleArea
 	
 	public double CalcArea()
 	{
-	    double ans=0.0;
-		ans=3.14*r*r;
-		return  ans;
+		return 3.14*r*r;;
 	}
 }
 
@@ -31,9 +29,7 @@ class TriangleArea
 	
 	public double CalcArea()
 	{
-		double ans=0.0;
-		ans=(b*h)/2;
-		return ans;
+		return (b*h)/2;
 	}
 }
 
